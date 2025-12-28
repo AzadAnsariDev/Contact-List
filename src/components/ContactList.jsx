@@ -1,10 +1,10 @@
 import React from 'react'
-import Userlist from './Userlist'
+import UserList from './UserList'
 
 const ContactList = ({allUsers, setAllUsers}) => {
   return (
     <div className='h-full w-[80%] bg-slate-700 p-8 rounded '>
-        {allUsers.length > 0 ? <Userlist allUsers = {allUsers} setAllUsers={setAllUsers}/> : <h1 className='text-4xl text-red-400 flex  justify-center font-[100]'>List is Empty</h1>}
+        {allUsers.length > 0 ? <UserList allUsers = {allUsers} setAllUsers={setAllUsers}/> : <h1 className='text-4xl text-red-400 flex  justify-center font-[100]'>List is Empty</h1>}
     </div>
   )
 }

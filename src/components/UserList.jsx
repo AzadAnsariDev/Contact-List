@@ -2,7 +2,7 @@ import React from 'react'
 import CallingCard from './CallingCard'
 import { useState } from 'react'
 
-const Userlist = ({allUsers, setAllUsers}) => {
+const UserList = ({allUsers, setAllUsers}) => {
 
 let removeUser = (idx)=>{
   
@@ -40,4 +40,4 @@ const [showCall, setShowCall] = useState(false)
   )
 }
 
-export default Userlist
+export default UserList
