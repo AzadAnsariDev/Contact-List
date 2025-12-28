@@ -17,7 +17,7 @@ const CallingCard = ({ onEndCall, activeUser }) => {
           <img
             onClick={onEndCall}
             className="h-20 w-20"
-            src="/public/end_call.jpg"
+            src="https://uxwing.com/wp-content/themes/uxwing/download/communication-chat-call/end-call-icon.png"
             alt=""
           />
         </div>

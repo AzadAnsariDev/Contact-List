@@ -27,7 +27,7 @@ const [showCall, setShowCall] = useState(false)
             setShowCall(true) 
             setActiveUser(user)
           }} 
-            className='h-10 min-w-10' src="/public/call.png" alt="" /></p>
+            className='h-10 min-w-10' src="https://images.vexels.com/media/users/3/137415/isolated/preview/0e475bb9b17b3fa4f94f31fba1635b8f-telephone-call-icon-logo.png?w=360" alt="" /></p>
             <button onClick={()=>{
               removeUser(index)
             }
