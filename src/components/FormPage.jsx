@@ -24,7 +24,7 @@ const FormPage = ({allUsers, setAllUsers}) => {
         submithandler(e)
       }} 
         className= 'h-full w-full bg-slate-800 flex flex-col items-center p-4 rounded'>
-        <h1 className='text-[2em] text-neutral-400 mb-14'>Helo</h1>
+        <h1 className='text-[2em] text-neutral-400 mb-14'>Contact List Form</h1>
         <input 
         onChange={(e)=>{
           setName(e.target.value);
